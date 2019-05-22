@@ -1,0 +1,7 @@
+To Do
+    review standard liprary argparse
+        https://docs.python.org/3/library/argparse.html
+    Docstring Conventions
+        reStructuredText/Sphinx - sphinx-doc.org
+    Learn how shebangs work
+        PEP 397 PyLauncher for windows
