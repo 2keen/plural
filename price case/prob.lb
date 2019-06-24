@@ -1,0 +1,82 @@
+\* holidayPricing *\
+Maximize
+OBJ: - 0.5 pricing_2019_0 - 0.3 pricing_2019_1 - 1.8 pricing_2019_10
+ - 1.5 pricing_2019_11 - 1.7 pricing_2019_12 - 1.4 pricing_2019_13
+ - 2 pricing_2019_14 - 1.5 pricing_2019_15 - 2 pricing_2019_16
+ - 1.8 pricing_2019_17 - 2 pricing_2019_18 - 1.8 pricing_2019_19
+ - 0.6 pricing_2019_2 - 0.4 pricing_2019_3 - 0.5 pricing_2019_4
+ - 0.3 pricing_2019_5 - 0.7 pricing_2019_6 - 0.6 pricing_2019_7
+ - 2 pricing_2019_8 - 1.5 pricing_2019_9
+Subject To
+Margin_must_be_within_5%_of_2018: 0.0333333333333 pricing_2019_0
+ + 0.0333333333333 pricing_2019_1 + 0.0181818181818 pricing_2019_10
+ + 0.0166666666667 pricing_2019_11 + 0.0142857142857 pricing_2019_12
+ + 0.0133333333333 pricing_2019_13 + 0.0166666666667 pricing_2019_14
+ + 0.0153846153846 pricing_2019_15 + pricing_2019_16 + 0.5 pricing_2019_17
+ + 0.0833333333333 pricing_2019_18 + 0.0714285714286 pricing_2019_19
+ + 0.0222222222222 pricing_2019_2 + 0.0222222222222 pricing_2019_3
+ + 0.0166666666667 pricing_2019_4 + 0.0166666666667 pricing_2019_5
+ + 0.125 pricing_2019_6 + 0.111111111111 pricing_2019_7 + 0.02 pricing_2019_8
+ + 0.0181818181818 pricing_2019_9 >= 20.7282088587
+lowes_limit_s1a: pricing_2019_0 <= 55
+lowes_limit_s1n: pricing_2019_1 <= 60
+lowes_limit_s2a: pricing_2019_2 <= 70
+lowes_limit_s2n: pricing_2019_3 <= 75
+lowes_limit_s3a: pricing_2019_4 <= 105
+lowes_limit_s3n: pricing_2019_5 <= 120
+lowes_limit_saa: pricing_2019_6 <= 11
+lowes_limit_san: pricing_2019_7 <= 12
+lowes_limit_t1a: pricing_2019_8 <= 90
+lowes_limit_t1n: pricing_2019_9 <= 100
+lowes_limit_t2a: pricing_2019_10 <= 120
+lowes_limit_t2n: pricing_2019_11 <= 130
+lowes_limit_t3a: pricing_2019_12 <= 150
+lowes_limit_t3n: pricing_2019_13 <= 160
+lowes_limit_t4a: pricing_2019_14 <= 120
+lowes_limit_t4n: pricing_2019_15 <= 130
+lowes_limit_ta1a: pricing_2019_16 <= 4
+lowes_limit_ta1n: pricing_2019_17 <= 5
+lowes_limit_ta2a: pricing_2019_18 <= 22
+lowes_limit_ta2n: pricing_2019_19 <= 25
+no_loss_leader_s1a: pricing_2019_0 >= 30
+no_loss_leader_s1n: pricing_2019_1 >= 30
+no_loss_leader_s2a: pricing_2019_2 >= 45
+no_loss_leader_s2n: pricing_2019_3 >= 45
+no_loss_leader_s3a: pricing_2019_4 >= 60
+no_loss_leader_s3n: pricing_2019_5 >= 60
+no_loss_leader_saa: pricing_2019_6 >= 8
+no_loss_leader_san: pricing_2019_7 >= 9
+no_loss_leader_t1a: pricing_2019_8 >= 50
+no_loss_leader_t1n: pricing_2019_9 >= 55
+no_loss_leader_t2a: pricing_2019_10 >= 55
+no_loss_leader_t2n: pricing_2019_11 >= 60
+no_loss_leader_t3a: pricing_2019_12 >= 70
+no_loss_leader_t3n: pricing_2019_13 >= 75
+no_loss_leader_t4a: pricing_2019_14 >= 60
+no_loss_leader_t4n: pricing_2019_15 >= 65
+no_loss_leader_ta1a: pricing_2019_16 >= 1
+no_loss_leader_ta1n: pricing_2019_17 >= 2
+no_loss_leader_ta2a: pricing_2019_18 >= 12
+no_loss_leader_ta2n: pricing_2019_19 >= 14
+Bounds
+1 <= pricing_2019_0 <= 200
+1 <= pricing_2019_1 <= 200
+1 <= pricing_2019_10 <= 200
+1 <= pricing_2019_11 <= 200
+1 <= pricing_2019_12 <= 200
+1 <= pricing_2019_13 <= 200
+1 <= pricing_2019_14 <= 200
+1 <= pricing_2019_15 <= 200
+1 <= pricing_2019_16 <= 200
+1 <= pricing_2019_17 <= 200
+1 <= pricing_2019_18 <= 200
+1 <= pricing_2019_19 <= 200
+1 <= pricing_2019_2 <= 200
+1 <= pricing_2019_3 <= 200
+1 <= pricing_2019_4 <= 200
+1 <= pricing_2019_5 <= 200
+1 <= pricing_2019_6 <= 200
+1 <= pricing_2019_7 <= 200
+1 <= pricing_2019_8 <= 200
+1 <= pricing_2019_9 <= 200
+End

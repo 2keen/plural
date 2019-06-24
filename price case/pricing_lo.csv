@@ -1,0 +1,21 @@
+SKU,Product,Market,Cost,Price,Lowes,Elasticity,Intercept,Units
+s1a,Inflatable Santa (Small),ATL,$30,$50,$55,-0.5,$125,100
+s1n,Inflatable Santa (Small),NY,$30,$50,$60,-0.3,115,100
+s2a,Inflatable Santa (Medium),ATL,$45,$75,$70,-0.6,85,40
+s2n,Inflatable Santa (Medium),NY,$45,$75,$75,-0.4,90,60
+s3a,Inflatable Santa (Large),ATL,$60,$100,$105,-0.5,70,20
+s3n,Inflatable Santa (Large),NY,$60,$100,$120,-0.3,80,50
+saa,Extension Cord,ATL,$8,$10,$11,-0.7,107,100
+san,Extension Cord,NY,$9,$10,$12,-0.6,106,100
+t1a,Douglas Fir Tree (6 ft),ATL,$50,$100,$90,-2,300,100
+t1n,Douglas Fir Tree (6 ft),NY,$55,$100,$100,-1.5,270,120
+t2a,Douglas Fir Tree (8 ft),ATL,$55,$120,$120,-1.8,266,50
+t2n,Douglas Fir Tree (8 ft),NY,$60,$120,$130,-1.5,230,50
+t3a,Douglas Fir Tree (10 ft),ATL,$70,$160,$150,-1.7,322,50
+t3n,Douglas Fir Tree (10 ft),NY,$75,$160,$160,-1.4,274,50
+t4a,Artificial Pine Tree (8 ft),ATL,$60,$100,$120,-2,350,150
+t4n,Artificial Pine Tree (8 ft),NY,$65,$100,$130,-1.5,310,160
+ta1a,Gold Ornament,ATL,$1,$5,$4,-2,50,40
+ta1n,Gold Ornament,NY,$2,$5,$5,-1.8,69,60
+ta2a,Wreath,ATL,$12,$20,$22,-2,90,50
+ta2n,Wreath,NY,$14,$20,$25,-1.8,86,50

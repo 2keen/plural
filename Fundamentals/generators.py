@@ -24,5 +24,33 @@ def run_take(items):
         print(item)
 
 
+def distinct(iterable):
+        """Return unique items by eliminating duplicates.
+
+        Args:
+                iterable: The source series
+        
+        Yields:
+                Unique elements in order from 'iterable'.
+        """
+        seen = set()
+        for item in iterable:
+                if item in seen:
+                        continue
+                yield item
+                seen.add(item)
+
+
+def run_distinct(items):
+        for item in distinct(items):
+                print(item)
+
+
+def run_pipeline(items):
+        for item in take(3, distinct(items)):
+                print(item)
+
 if __name__ == '__main__':
-    run_take([2, 4, 6, 8, 10])
+    #run_take([2, 4, 6, 8, 10])
+    #run_distinct([5, 7, 7, 6, 5, 5])
+    run_pipeline([3, 6, 6, 2, 1, 1])

@@ -1,5 +1,6 @@
 from urllib.request import urlopen
 
+
 def fetch_words():
     with urlopen('http://sixty-north.com/c/t.txt') as story:
         story_words = []
@@ -8,18 +9,21 @@ def fetch_words():
             for word in line_words:
                 story_words.append(word)
 
-    words = ''        
+    words = ''
     for word in story_words:
         words = words + ' ' + word
-        
+
     print(words)
+
 
 def square(x):
     return x * x
-    
+
+
 def launch_missiles():
     print('Missiles Launched!!!')
-    
+
+
 print(__name__)
 
 if __name__ == '__main__':

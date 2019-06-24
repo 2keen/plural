@@ -17,12 +17,13 @@ Print the Docstring for fetch_words function:
 import sys
 from urllib.request import urlopen
 
+
 def fetch_words(url):
     """Fetch a list of words from a URL.
-    
+
     Args:
         url: the URL of a UTF-8 text document
-    
+
     Returns:
         A list of strings containing the words from the document
     """
@@ -37,17 +38,17 @@ def fetch_words(url):
 
 def print_items(items):
     """Print items one per line.
-    
+
     Args:
         An iterable series of printable items
     """
     for item in items:
         print(item)
-        
+
 
 def main(url='http://sixty-north.com/c/t.txt'):
     """Print each word from a text document from a URL
-    
+
     Args:
         url: the URL of a UTF-8 text document
     """
@@ -56,4 +57,4 @@ def main(url='http://sixty-north.com/c/t.txt'):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1]) # The 0th argument is the module filename
+    main(sys.argv[1])  # The 0th argument is the module filename

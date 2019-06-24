@@ -1,5 +1,15 @@
 {
-    "python.pythonPath": "C:\\Users\\txk3623\\AppData\\Local\\Python37\\python.exe",
+    "python.pythonPath": "C:\\Users\\txk3623\\envs\\plural\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.venvPath": "C:\\Users\\txk3623\\dev\\python\\myenv", 
+    "python.terminal.activateEnvironment": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "python.formatting.provider": "autopep8",
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "editor.multiCursorModifier": "ctrlCmd"
 }
