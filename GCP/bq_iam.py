@@ -73,6 +73,7 @@ class org_meta:
         IAM_list = []
         data = []
         for pi, proj in enumerate(p_list, 1):
+            time.sleep(1.5)
             os.system('cls')
             print('{0}\nproject: {1} of {2}'.format(proj, pi, len(p_list)))
             try:
