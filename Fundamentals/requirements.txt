@@ -24,7 +24,7 @@ prompt-toolkit==2.0.9
 protobuf==3.7.1
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
-Pygments==2.4.0
+Pygments==2.7.4
 pytz==2019.1
 requests==2.22.0
 rsa==4.0
