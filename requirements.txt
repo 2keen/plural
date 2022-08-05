@@ -33,7 +33,7 @@ pickleshare==0.7.5
 prompt-toolkit==2.0.9
 protobuf==3.7.1
 PuLP==1.6.10
-pyarrow==0.13.0
+pyarrow==0.15.1
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
 pycodestyle==2.5.0
